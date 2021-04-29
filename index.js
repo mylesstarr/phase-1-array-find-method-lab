@@ -6,32 +6,24 @@ const record = [
   ]
 
 
-  function superbowlWin (array) {
-    const win = array.find(obj => {return obj.result === 'W'})
-    if (win != undefined) {
-        return win.year
-    } else {
-        return undefined
-    }
-}
-
-
-// function resultFunction(array) {
-//     if (array.result == "W") {
-//         console.log(array.year)
+//   function superbowlWin (array) {
+//     const win = array.find(obj => {return obj.result === 'W'})
+//     if (win != undefined) {
+//         return win.year
+//     } else {
+//         return undefined
 //     }
-    
-// }
-
-// const result = function(array) {
-//     return array.indexof("W")
 // }
 
 
+function resultFunction(array) {
+    const result = array.find(() => {return array.result === "W"})    
+    }
 
-// function superbowlWin(array){
-//     array.find(result)
-// }
+
+function superbowlWin(array){
+    array.find(result)
+}
 
 
 
